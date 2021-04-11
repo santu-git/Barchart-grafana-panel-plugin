@@ -1,8 +1,6 @@
-# Grafana Panel Plugin Template
+# Grafana Panel Plugin for Custom Barchart
 
 [![Build](https://github.com/grafana/grafana-starter-panel/workflows/CI/badge.svg)](https://github.com/grafana/grafana-starter-panel/actions?query=workflow%3A%22CI%22)
-
-This template is a starting point for building Grafana Panel Plugins in Grafana 7.0+
 
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/26341075/114313674-1098cd00-9b15-11eb-82ee-41001762142a.png)
@@ -14,7 +12,7 @@ This template is a starting point for building Grafana Panel Plugins in Grafana 
 Panels are the building blocks of Grafana. They allow you to visualize data in different ways. While Grafana has several types of panels already built-in, you can also build your own panel, to add support for other visualizations.
 
 For more information about panels, refer to the documentation on [Panels](https://grafana.com/docs/grafana/latest/features/panels/panels/)
-
+Cancel changes
 ## Getting started
 
 1. Install dependencies
