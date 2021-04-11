@@ -37,7 +37,7 @@ export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) =
         <Tooltip />
         <Legend align="left" iconType="line" />
         {data.series.map((srs, index) => (
-          <Bar dataKey={`${srs.name}`} stackId="stack" fill={colors[index]}>
+          <Bar key={`${srs.name}-${index}`} dataKey={`${srs.name}`} stackId="stack" fill={colors[index]}>
             <LabelList dataKey={`${srs.name}`} position="middle" />
           </Bar>
         ))}
