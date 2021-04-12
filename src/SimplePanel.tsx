@@ -16,7 +16,7 @@ interface Props extends PanelProps<SimpleOptions> {}
 export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) => {
   const formatData = (input: any[]) => {
     let formattedData: any[] = [];
-    input.map(srs => {
+    input.map((srs) => {
       return new DataFrameView<DataPoint>(srs).toArray().map((dd, index) => {
         if (formattedData[index]) {
           formattedData[index] = { ...formattedData[index], [`${srs.name}`]: dd.Value };
